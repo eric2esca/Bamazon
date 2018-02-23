@@ -1,6 +1,6 @@
 # Bamazon
 
-## Hey Helper probably PAT or STEVEN
+## Hey Helper probably PAT or STEVEN or POORNIMA
 
 So I am testing stuff on the mySQL workbench to see if things work.  See image below:
 ![image of mySQL workbench database with mock file](/images/workbench1.png)
