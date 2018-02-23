@@ -13,10 +13,28 @@ On the terminal its not displaying what I want
 ### What part of my javascript code looks like
 
 ```
+var mysql = require("mysql");
+var inquirer = require("inquirer");
+
+var connection = mysql.createConnection({
+	host: "localhost",
+	port: 3306,
+	user: "root",
+	password: "password",
+	database: "bamazon"
+});
+
+connection.connect(function(err){
+	if(err) throw err;
+	displayProducts();
+});
+
 function displayProducts(){
 	var query = "SELECT position,item_id,product_name,department_name,price,stock_quantity FROM products";
 	connection.query(query, function(err, res){
 		if(err) throw err;
+
+		console.log(res);
 
 		for(var i = 0; i < res.length; i++){
 			console.log(
@@ -27,6 +45,7 @@ function displayProducts(){
 		connection.end();
 	})
 }
+
 ```
 
 ## why is nothing coming back on the terminal?
