@@ -13,4 +13,4 @@ CREATE TABLE products(
 	PRIMARY KEY (position)
 );
 
-SELECT * FROM bamazon;
+SELECT * FROM products;

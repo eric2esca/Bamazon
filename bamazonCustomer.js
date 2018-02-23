@@ -19,14 +19,12 @@ function displayProducts(){
 	connection.query(query, function(err, res){
 		if(err) throw err;
 
-		console.log(res);
-
 		for(var i = 0; i < res.length; i++){
 			console.log(
 			`Item #${res[i].position}, item id: ${res[i].item_id}, product name: ${res[i].product_name}, department name: ${res[i].department_name}, price: $${res[i].price}, stock: ${res[i].stock_quantity}`	
 				);
 		}
-		console.log(res);
+		//console.log(res);
 		connection.end();
 	})
 }
