@@ -1,6 +1,6 @@
 # Bamazon
 
-## Hey Helper probably PAT
+## Hey Helper probably PAT or STEVEN
 
 So I am testing stuff on the mySQL workbench to see if things work.  See image below:
 ![image of mySQL workbench database with mock file](/images/workbench1.png)
@@ -12,6 +12,7 @@ On the terminal its not displaying what I want
 
 ### What part of my javascript code looks like
 
+```
 function displayProducts(){
 	var query = "SELECT position,item_id,product_name,department_name,price,stock_quantity FROM products";
 	connection.query(query, function(err, res){
@@ -26,6 +27,7 @@ function displayProducts(){
 		connection.end();
 	})
 }
+```
 
 ## why is nothing coming back on the terminal?
 
