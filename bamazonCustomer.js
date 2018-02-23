@@ -15,7 +15,7 @@ connection.connect(function(err){
 });
 
 function displayProducts(){
-	var query = "SELECT position,item_id,product_name,department_name,price,stock_quantity FROM products"
+	var query = "SELECT position,item_id,product_name,department_name,price,stock_quantity FROM products";
 	connection.query(query, function(err, res){
 		if(err) throw err;
 
