@@ -212,4 +212,5 @@ Run node in the terminal!
 # Quick Video Run Through
 
 Please click the image to view the youtube video!
-![bamazon1](/images/bamazon1.png)(https://www.youtube.com/watch?v=hSB_gJuO8s4)
+![bamazon1](/images/bamazon1.png)
+(https://www.youtube.com/watch?v=hSB_gJuO8s4)
