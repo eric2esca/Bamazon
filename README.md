@@ -208,3 +208,8 @@ Run node in the terminal!
 ![database1](/images/database1.png)
 
 ![database2](/images/database2.png)
+
+# Quick Video Run Through
+
+Please click the image to view the youtube video!
+![bamazon1](/images/bamazon1.png)(https://www.youtube.com/watch?v=hSB_gJuO8s4)
